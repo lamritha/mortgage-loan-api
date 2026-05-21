@@ -1,0 +1,6 @@
+@mortgage_loan_api_HostAddress = http://localhost:5213
+
+GET {{mortgage_loan_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
