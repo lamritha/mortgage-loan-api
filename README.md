@@ -21,7 +21,7 @@ and generating amortization schedules.
 
 ## Tech Stack
 
-- C# / .NET 8
+- C# / .NET 10
 - ASP.NET Core Web API
 - Entity Framework Core
 - SQLite
