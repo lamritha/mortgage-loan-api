@@ -1,8 +1,10 @@
+using MortgageLoanAPI.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IApplicantRepository, ApplicantRepository>();
 
 var app = builder.Build();
 
